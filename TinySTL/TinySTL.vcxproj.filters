@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Detail">
+      <UniqueIdentifier>{a810d569-0cf5-4d95-846d-94bfe12a0312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiler">
+      <UniqueIdentifier>{27d72392-2e4a-4f69-8bbe-d5eba349bd25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{0e296ab0-1446-4674-ac77-25dc16dcc808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestData">
+      <UniqueIdentifier>{10c9ab26-c45c-492c-9b5b-c9c3bf4a76c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Detail\Alloc.cpp">
+      <Filter>Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\String.cpp">
+      <Filter>Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\TrieTree.cpp">
+      <Filter>Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\AlgorithmTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\AVLTreeTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\BinarySearchTreeTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\BitmapTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\CircularBufferTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\COWPtrTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\DequeTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\GraphTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ListTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\PairTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\PriorityQueueTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\QueueTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\RefTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\SharedPtrTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\StackTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\StringTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\SuffixArrayTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\TrieTreeTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\TypeTraitsTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\UFSetTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\UniquePtrTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\Unordered_setTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\VectorTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler\Profiler.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Detail\AVLTree.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\BinarySearchTree.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Bitmap.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\CircularBuffer.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\COWPtr.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Deque.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Graph.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\List.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Ref.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Unordered_set.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Vector.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Alloc.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Construct.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="COWPtr.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Deque.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Functional.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseIterator.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="SuffixArray.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TrieTree.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeTraits.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="UFSet.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="UninitializedFunctions.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Unordered_set.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\AlgorithmTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\AVLTreeTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\BinarySearchTreeTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\BitmapTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\CircularBufferTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\COWPtrTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\DequeTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\GraphTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ListTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\PairTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\PriorityQueueTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\QueueTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\RefTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\SharedPtrTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\StackTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\StringTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\SuffixArrayTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestUtil.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TrieTreeTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TypeTraitsTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\UFSetTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\UniquePtrTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\Unordered_setTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\VectorTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler\Profiler.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestData\trie_tree_test.txt">
+      <Filter>TestData</Filter>
+    </Text>
+    <Text Include="TestData\string_test.txt">
+      <Filter>TestData</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
